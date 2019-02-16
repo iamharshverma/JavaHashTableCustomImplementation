@@ -173,6 +173,7 @@ public class Main {
 		map.addkeyInBucket("eight", 8);
 		map.addkeyInBucket("nine", 9);
 		map.addkeyInBucket("ten", 10);
+		// The Vector will double itself at this point of insertion as it will exceed the initial 10 index storage
 		map.addkeyInBucket("fifty", 50);
 		map.addkeyInBucket("sixty", 60);
 		map.addkeyInBucket("ninty", 90);
